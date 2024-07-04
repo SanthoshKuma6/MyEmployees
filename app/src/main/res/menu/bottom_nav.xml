@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <item
+        android:id="@+id/myEmployee"
+        android:icon="@drawable/home_employee"
+        android:title="@string/my_employee"
+        android:enabled="true"
+        app:showAsAction="ifRoom"/>
+
+    <item
+        android:id="@+id/myProfile"
+        android:icon="@drawable/profile_employee"
+        android:title="@string/my_profile"
+        android:enabled="true"
+        app:showAsAction="ifRoom"/>
+
+</menu>
